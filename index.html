@@ -17,12 +17,19 @@
             width: 100px;
         }
 
+        .slide-price-color {
+            color: #FF136F;
+            font-weight: 600;
+        }
+
         .panda-bg {
             background-color: #fceae8;
         }
 
         .panda-buy-now-btn {
-            background-color: #ff589b;
+            background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+            border-radius: 7px;
+            padding: 8px 20px;
             color: whitesmoke;
             font-weight: 700;
         }
@@ -55,13 +62,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shose">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subsctibe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
                     </ul>
 
@@ -91,7 +98,7 @@
                                     <p>This is the best headphone in the world for people who just want to waste time in
                                         front of funky world.
                                     </p>
-                                    <h1>$420</h1>
+                                    <h1 class="slide-price-color">$420</h1>
                                     <button class="btn panda-buy-now-btn ">Buy Now</button>
                                 </div>
                             </div>
@@ -111,7 +118,7 @@
                                         This is the best headphone in the world for people who just want to waste time
                                         in front of funky world.
                                     </p>
-                                    <h1>$420</h1>
+                                    <h1 class="slide-price-color"> $420</h1>
                                     <button class="btn panda-buy-now-btn ">Buy Now</button>
                                 </div>
                             </div>
@@ -130,7 +137,7 @@
                                     <p>This is the best headphone in the world for people who just want to waste time in
                                         front of funky world.
                                     </p>
-                                    <h1>$420</h1>
+                                    <h1 class="slide-price-color">$420</h1>
                                     <button class="btn panda-buy-now-btn ">Buy Now</button>
                                 </div>
                             </div>
@@ -197,7 +204,7 @@
 
         <!-- shoes section start   -->
         <section class="container ">
-            <h2 class="mt-5">
+            <h2 id="shose" class="mt-5">
                 Shoes
             </h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5 ">
@@ -207,11 +214,13 @@
                         <img src="./images/shoes/shoe-1.png" class="card-img-top" alt="...">
                         <div class="card-body ps-5">
                             <h5 class="card-title">Supply 350</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            <p class="card-text">This is a wider card with supporting text below as a natural
+                                lead-in to
                                 additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="ps-5 pb-3">
-                            <button class="btn panda-buy-now-btn ">Buy Now</button>
+                            <button class="btn panda-buy-now-btn ">Buy Now <i
+                                    class="fas fa-angle-double-right"></i></button>
                         </div>
                     </div>
                 </div>
@@ -220,11 +229,13 @@
                         <img src="./images/shoes/shoe-2.png" class="card-img-top" alt="...">
                         <div class="card-body ps-5">
                             <h5 class="card-title">Nike 360</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            <p class="card-text">This card has supporting text below as a natural lead-in to
+                                additional
                                 content.</p>
                         </div>
                         <div class="ps-5 pb-3">
-                            <button class="btn panda-buy-now-btn ">Buy Now</button>
+                            <button class="btn panda-buy-now-btn ">Buy Now <i
+                                    class="fas fa-angle-double-right"></i></button>
                         </div>
                     </div>
                 </div>
@@ -235,11 +246,13 @@
                             <h5 class="card-title">Red Airmax</h5>
                             <p class="card-text">This is a wider card with supporting text below as a
                                 natural lead-in to
-                                additional content. This card has even longer content than the first to show that equal
+                                additional content. This card has even longer content than the first to show that
+                                equal
                                 height action.</p>
                         </div>
                         <div class="ps-5 pb-3">
-                            <button class="btn panda-buy-now-btn ">Buy Now</button>
+                            <button class="btn panda-buy-now-btn ">Buy Now <i
+                                    class="fas fa-angle-double-right"></i></button>
                         </div>
                     </div>
                 </div>
@@ -251,7 +264,7 @@
 
         <!-- Backpack section start   -->
         <section class="container ">
-            <h2 class="mt-5">
+            <h2 id="backpack" class="mt-5">
                 Backpack
             </h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5 ">
@@ -265,7 +278,8 @@
                                 additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="ps-5 pb-3">
-                            <button class="btn panda-buy-now-btn ">Buy Now</button>
+                            <button class="btn panda-buy-now-btn ">Buy Now <i
+                                    class="fas fa-angle-double-right"></i></button>
                         </div>
                     </div>
                 </div>
@@ -278,7 +292,8 @@
                                 content.</p>
                         </div>
                         <div class="ps-5 pb-3">
-                            <button class="btn panda-buy-now-btn ">Buy Now</button>
+                            <button class="btn panda-buy-now-btn ">Buy Now <i
+                                    class="fas fa-angle-double-right"></i></button>
                         </div>
                     </div>
                 </div>
@@ -293,7 +308,8 @@
                                 height action.</p>
                         </div>
                         <div class="ps-5 pb-3">
-                            <button class="btn panda-buy-now-btn ">Buy Now</button>
+                            <button class="btn panda-buy-now-btn ">Buy Now <i
+                                    class="fas fa-angle-double-right"></i></button>
                         </div>
                     </div>
                 </div>
@@ -307,7 +323,7 @@
         <!-- subscription section start  -->
         <section class="container d-flex justify-content-center align-items-center subscription rounded-3">
             <div>
-                <h1>LET'S STAY IN TOUCH</h1>
+                <h1 id="subscribe">LET'S STAY IN TOUCH</h1>
                 <p>
                     Get updates on sales, specials and more
                 </p>
@@ -333,6 +349,13 @@
 
     </footer>
     <!-- footer end  -->
+
+
+
+
+
+    <!-- Font Awesome js link  -->
+    <script src="https://kit.fontawesome.com/a9db8cab01.js" crossorigin="anonymous"></script>
 
     <!-- Bootstrap js link  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
