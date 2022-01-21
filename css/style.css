@@ -1,0 +1,43 @@
+/* =================
+    google fonts 
+================*/
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Oswald&family=Prompt&display=swap');
+
+
+
+
+/* --------------------------------------
+       common styles or utilities
+---------------------------------------  */
+body{
+    font-family: 'Chewy', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Prompt', sans-serif;
+}
+.feature img {
+    height: 100px;
+    width: 100px;
+}
+
+.slide-price-color {
+    color: #FF136F;
+    font-weight: 600;
+}
+
+.panda-bg {
+    background-color: #fceae8;
+}
+
+.panda-buy-now-btn {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    border-radius: 7px;
+    padding: 8px 20px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.subscription {
+    height: 300px;
+    background-color: #fceae8;
+    margin-top: 50px;
+}
